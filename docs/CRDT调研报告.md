@@ -46,7 +46,7 @@ CRDT有两种类型：Op-based CRDT和State-based CRDT。下面分别介绍两�
 
 ### 1.4 A simple example
 
-G计数器是CRDT的一个简单的例子，其中的元素满足$ a+b=b+a $ 和 $ a+(b+c) = (a+b)+c $ .副本仅彼此交换更新。CRDT将通过合并更新来merge。
+G计数器是CRDT的一个简单的例子，其中的元素满足 $a+b=b+a$ 和  $ a+(b+c) = (a+b)+c $ .副本仅彼此交换更新。CRDT将通过合并更新来merge。
 
 ![CRDT_1](../src/CRDT_1.png)
 
@@ -64,7 +64,7 @@ G计数器是CRDT的一个简单的例子，其中的元素满足$ a+b=b+a $ 和
 
 * [Diamond-type](https://link.zhihu.com/?target=https%3A//github.com/josephg/diamond-types)
 
-项目[https://github.com/dmonad/crdt-benchmarks]中列出了前三者的benchmark，大致结果为Yjs性能最佳。
+项目 [https://github.com/dmonad/crdt-benchmarks] 中列出了前三者的benchmark，大致结果为Yjs性能最佳。
 
 * [Conflict-free replicated data types](https://link.zhihu.com/?target=https%3A//readpaper.com/paper/1516319412) CRDT原论文
 
@@ -89,3 +89,4 @@ G计数器是CRDT的一个简单的例子，其中的元素满足$ a+b=b+a $ 和
 ​	在论文中，作者还提出了如何构建一个op-based Directed-Graph-CRDT。而DisGraFS正是基于图数据库做成的。或许我们可以运用图结构的CRDT去解决其强一致性问题。
 
 ![CRDT_3](../src/CRDT_3.png)
+
