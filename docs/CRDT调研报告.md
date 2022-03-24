@@ -46,7 +46,7 @@ CRDT有两种类型：Op-based CRDT和State-based CRDT。下面分别介绍两�
 
 ### 1.4 A simple example
 
-G计数器是CRDT的一个简单的例子，其中的元素满足$a+b=b+a$ 和 $a+(b+c) = (a+b)+c$ .副本仅彼此交换更新。CRDT将通过合并更新来merge。
+G计数器是CRDT的一个简单的例子，其中的元素满足$ a+b=b+a $ 和 $ a+(b+c) = (a+b)+c $ .副本仅彼此交换更新。CRDT将通过合并更新来merge。
 
 ![CRDT_1](../src/CRDT_1.png)
 
@@ -78,6 +78,14 @@ G计数器是CRDT的一个简单的例子，其中的元素满足$a+b=b+a$ 和 $
 
 
 
+### 3.24更新 CRDT原论文摘录
 
+![CRDT_2](../src/CRDT_2.png)
 
---To be continued
+​	如图1所示，state-based replication在执行更新在执行会修改单个复制副本的状态。每个副本会定时将其本地状态发送给其他副本，后者会合并该状态。这样，每次更新直接或间接地最终都会到达每个副本。
+
+​	Op-based replication种没有merge操作，并且将update操作分成了t和u两种操作。t是pre-update，u是effect-update。pre-update在产生更新的单个副本上进行，同时，在该副本（源副本）上，effect-update会在pre-update执行完之后立即执行。effect-update在所有副本（下游副本）上执行。源副本使用指定的通信协议将effect-update传递给下游副本。
+
+​	在论文中，作者还提出了如何构建一个op-based Directed-Graph-CRDT。而DisGraFS正是基于图数据库做成的。或许我们可以运用图结构的CRDT去解决其强一致性问题。
+
+![CRDT_3](../src/CRDT_3.png)
