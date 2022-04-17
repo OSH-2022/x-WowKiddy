@@ -76,6 +76,10 @@ JuiceFS 是一款面向云环境设计的高性能共享文件系统，在 AGPL 
 
 ### 数据一致性问题
 
+#### 什么是数据一致性问题
+对于这个话题，我们根据仓库中的已有报告来看看什么是数据一致性：![什么是强一致性问题？](docs/什么是强一致性问题？.md)
+
+
 #### CRDT理论
 ​	CRDT，全称无冲突复制数据类型(Conflict-free Replicated Data Type)，在具体阐述之前，先简要介绍一下分布式系统的CAP理论。
 
@@ -228,3 +232,4 @@ Lua是一个[动态类型](https://zh.wikipedia.org/wiki/%E5%8A%A8%E6%80%81%E7%B
 [Lua](https://en.wikipedia.org/wiki/Lua_(programming_language))
 
 注：不同md应用渲染效果有所不同，完整报告内容见仓库pdf。
+仓库调研报告关系图谱：![](src/调研笔记关系图谱.png)
