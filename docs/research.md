@@ -231,5 +231,4 @@ Lua是一个[动态类型](https://zh.wikipedia.org/wiki/%E5%8A%A8%E6%80%81%E7%B
 [phxpaxos](https://github.com/Tencent/phxpaxos)
 [Lua](https://en.wikipedia.org/wiki/Lua_(programming_language))
 
-注：不同md应用渲染效果有所不同，完整报告内容见仓库pdf。
-仓库调研报告关系图谱：![](src/调研笔记关系图谱.png)
+注：不同md应用渲染效果有所不同，完整报告内容见仓库pdf。![](src/调研笔记关系图谱.png)
