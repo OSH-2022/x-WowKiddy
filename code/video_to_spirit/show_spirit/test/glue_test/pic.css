@@ -1,0 +1,1029 @@
+/* glue: 0.13 hash: ffafbc7303 */
+        .sprite-pic-pic-99,
+.sprite-pic-pic-98,
+.sprite-pic-pic-97,
+.sprite-pic-pic-96,
+.sprite-pic-pic-95,
+.sprite-pic-pic-94,
+.sprite-pic-pic-93,
+.sprite-pic-pic-92,
+.sprite-pic-pic-91,
+.sprite-pic-pic-90,
+.sprite-pic-pic-9,
+.sprite-pic-pic-89,
+.sprite-pic-pic-88,
+.sprite-pic-pic-87,
+.sprite-pic-pic-86,
+.sprite-pic-pic-85,
+.sprite-pic-pic-84,
+.sprite-pic-pic-83,
+.sprite-pic-pic-82,
+.sprite-pic-pic-81,
+.sprite-pic-pic-80,
+.sprite-pic-pic-8,
+.sprite-pic-pic-79,
+.sprite-pic-pic-78,
+.sprite-pic-pic-77,
+.sprite-pic-pic-76,
+.sprite-pic-pic-75,
+.sprite-pic-pic-74,
+.sprite-pic-pic-73,
+.sprite-pic-pic-72,
+.sprite-pic-pic-71,
+.sprite-pic-pic-70,
+.sprite-pic-pic-7,
+.sprite-pic-pic-69,
+.sprite-pic-pic-68,
+.sprite-pic-pic-67,
+.sprite-pic-pic-66,
+.sprite-pic-pic-65,
+.sprite-pic-pic-64,
+.sprite-pic-pic-63,
+.sprite-pic-pic-62,
+.sprite-pic-pic-61,
+.sprite-pic-pic-60,
+.sprite-pic-pic-6,
+.sprite-pic-pic-59,
+.sprite-pic-pic-58,
+.sprite-pic-pic-57,
+.sprite-pic-pic-56,
+.sprite-pic-pic-55,
+.sprite-pic-pic-54,
+.sprite-pic-pic-53,
+.sprite-pic-pic-52,
+.sprite-pic-pic-51,
+.sprite-pic-pic-50,
+.sprite-pic-pic-5,
+.sprite-pic-pic-49,
+.sprite-pic-pic-48,
+.sprite-pic-pic-47,
+.sprite-pic-pic-46,
+.sprite-pic-pic-45,
+.sprite-pic-pic-44,
+.sprite-pic-pic-43,
+.sprite-pic-pic-42,
+.sprite-pic-pic-41,
+.sprite-pic-pic-40,
+.sprite-pic-pic-4,
+.sprite-pic-pic-39,
+.sprite-pic-pic-38,
+.sprite-pic-pic-37,
+.sprite-pic-pic-36,
+.sprite-pic-pic-35,
+.sprite-pic-pic-34,
+.sprite-pic-pic-33,
+.sprite-pic-pic-32,
+.sprite-pic-pic-31,
+.sprite-pic-pic-30,
+.sprite-pic-pic-3,
+.sprite-pic-pic-29,
+.sprite-pic-pic-28,
+.sprite-pic-pic-27,
+.sprite-pic-pic-26,
+.sprite-pic-pic-25,
+.sprite-pic-pic-24,
+.sprite-pic-pic-23,
+.sprite-pic-pic-22,
+.sprite-pic-pic-21,
+.sprite-pic-pic-20,
+.sprite-pic-pic-2,
+.sprite-pic-pic-19,
+.sprite-pic-pic-18,
+.sprite-pic-pic-17,
+.sprite-pic-pic-16,
+.sprite-pic-pic-15,
+.sprite-pic-pic-14,
+.sprite-pic-pic-13,
+.sprite-pic-pic-127,
+.sprite-pic-pic-126,
+.sprite-pic-pic-125,
+.sprite-pic-pic-124,
+.sprite-pic-pic-123,
+.sprite-pic-pic-122,
+.sprite-pic-pic-121,
+.sprite-pic-pic-120,
+.sprite-pic-pic-12,
+.sprite-pic-pic-119,
+.sprite-pic-pic-118,
+.sprite-pic-pic-117,
+.sprite-pic-pic-116,
+.sprite-pic-pic-115,
+.sprite-pic-pic-114,
+.sprite-pic-pic-113,
+.sprite-pic-pic-112,
+.sprite-pic-pic-111,
+.sprite-pic-pic-110,
+.sprite-pic-pic-11,
+.sprite-pic-pic-109,
+.sprite-pic-pic-108,
+.sprite-pic-pic-107,
+.sprite-pic-pic-106,
+.sprite-pic-pic-105,
+.sprite-pic-pic-104,
+.sprite-pic-pic-103,
+.sprite-pic-pic-102,
+.sprite-pic-pic-101,
+.sprite-pic-pic-100,
+.sprite-pic-pic-10,
+.sprite-pic-pic-1 {
+            background-image: url('pic.png');
+            background-repeat: no-repeat;
+        }
+        
+        .sprite-pic-pic-99 {
+            background-position: 0 0;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-98 {
+            background-position: -1280px 0;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-97 {
+            background-position: 0 -720px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-96 {
+            background-position: -1280px -720px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-95 {
+            background-position: 0 -1440px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-94 {
+            background-position: -1280px -1440px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-93 {
+            background-position: -2560px 0;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-92 {
+            background-position: -2560px -720px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-91 {
+            background-position: -2560px -1440px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-90 {
+            background-position: 0 -2160px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-9 {
+            background-position: -1280px -2160px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-89 {
+            background-position: -2560px -2160px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-88 {
+            background-position: 0 -2880px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-87 {
+            background-position: -1280px -2880px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-86 {
+            background-position: -2560px -2880px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-85 {
+            background-position: -3840px 0;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-84 {
+            background-position: -3840px -720px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-83 {
+            background-position: -3840px -1440px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-82 {
+            background-position: -3840px -2160px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-81 {
+            background-position: -3840px -2880px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-80 {
+            background-position: 0 -3600px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-8 {
+            background-position: -1280px -3600px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-79 {
+            background-position: -2560px -3600px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-78 {
+            background-position: -3840px -3600px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-77 {
+            background-position: 0 -4320px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-76 {
+            background-position: -1280px -4320px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-75 {
+            background-position: -2560px -4320px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-74 {
+            background-position: -3840px -4320px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-73 {
+            background-position: -5120px 0;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-72 {
+            background-position: -5120px -720px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-71 {
+            background-position: -5120px -1440px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-70 {
+            background-position: -5120px -2160px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-7 {
+            background-position: -5120px -2880px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-69 {
+            background-position: -5120px -3600px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-68 {
+            background-position: -5120px -4320px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-67 {
+            background-position: 0 -5040px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-66 {
+            background-position: -1280px -5040px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-65 {
+            background-position: -2560px -5040px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-64 {
+            background-position: -3840px -5040px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-63 {
+            background-position: -5120px -5040px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-62 {
+            background-position: -6400px 0;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-61 {
+            background-position: -6400px -720px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-60 {
+            background-position: -6400px -1440px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-6 {
+            background-position: -6400px -2160px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-59 {
+            background-position: -6400px -2880px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-58 {
+            background-position: -6400px -3600px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-57 {
+            background-position: -6400px -4320px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-56 {
+            background-position: -6400px -5040px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-55 {
+            background-position: 0 -5760px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-54 {
+            background-position: -1280px -5760px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-53 {
+            background-position: -2560px -5760px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-52 {
+            background-position: -3840px -5760px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-51 {
+            background-position: -5120px -5760px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-50 {
+            background-position: -6400px -5760px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-5 {
+            background-position: 0 -6480px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-49 {
+            background-position: -1280px -6480px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-48 {
+            background-position: -2560px -6480px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-47 {
+            background-position: -3840px -6480px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-46 {
+            background-position: -5120px -6480px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-45 {
+            background-position: -6400px -6480px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-44 {
+            background-position: -7680px 0;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-43 {
+            background-position: -7680px -720px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-42 {
+            background-position: -7680px -1440px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-41 {
+            background-position: -7680px -2160px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-40 {
+            background-position: -7680px -2880px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-4 {
+            background-position: -7680px -3600px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-39 {
+            background-position: -7680px -4320px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-38 {
+            background-position: -7680px -5040px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-37 {
+            background-position: -7680px -5760px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-36 {
+            background-position: -7680px -6480px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-35 {
+            background-position: 0 -7200px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-34 {
+            background-position: -1280px -7200px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-33 {
+            background-position: -2560px -7200px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-32 {
+            background-position: -3840px -7200px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-31 {
+            background-position: -5120px -7200px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-30 {
+            background-position: -6400px -7200px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-3 {
+            background-position: -7680px -7200px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-29 {
+            background-position: 0 -7920px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-28 {
+            background-position: -1280px -7920px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-27 {
+            background-position: -2560px -7920px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-26 {
+            background-position: -3840px -7920px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-25 {
+            background-position: -5120px -7920px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-24 {
+            background-position: -6400px -7920px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-23 {
+            background-position: -7680px -7920px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-22 {
+            background-position: -8960px 0;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-21 {
+            background-position: -8960px -720px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-20 {
+            background-position: -8960px -1440px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-2 {
+            background-position: -8960px -2160px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-19 {
+            background-position: -8960px -2880px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-18 {
+            background-position: -8960px -3600px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-17 {
+            background-position: -8960px -4320px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-16 {
+            background-position: -8960px -5040px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-15 {
+            background-position: -8960px -5760px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-14 {
+            background-position: -8960px -6480px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-13 {
+            background-position: -8960px -7200px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-127 {
+            background-position: -8960px -7920px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-126 {
+            background-position: 0 -8640px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-125 {
+            background-position: -1280px -8640px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-124 {
+            background-position: -2560px -8640px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-123 {
+            background-position: -3840px -8640px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-122 {
+            background-position: -5120px -8640px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-121 {
+            background-position: -6400px -8640px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-120 {
+            background-position: -7680px -8640px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-12 {
+            background-position: -8960px -8640px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-119 {
+            background-position: 0 -9360px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-118 {
+            background-position: -1280px -9360px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-117 {
+            background-position: -2560px -9360px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-116 {
+            background-position: -3840px -9360px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-115 {
+            background-position: -5120px -9360px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-114 {
+            background-position: -6400px -9360px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-113 {
+            background-position: -7680px -9360px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-112 {
+            background-position: -8960px -9360px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-111 {
+            background-position: -10240px 0;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-110 {
+            background-position: -10240px -720px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-11 {
+            background-position: -10240px -1440px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-109 {
+            background-position: -10240px -2160px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-108 {
+            background-position: -10240px -2880px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-107 {
+            background-position: -10240px -3600px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-106 {
+            background-position: -10240px -4320px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-105 {
+            background-position: -10240px -5040px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-104 {
+            background-position: -10240px -5760px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-103 {
+            background-position: -10240px -6480px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-102 {
+            background-position: -10240px -7200px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-101 {
+            background-position: -10240px -7920px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-100 {
+            background-position: -10240px -8640px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-10 {
+            background-position: -10240px -9360px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        .sprite-pic-pic-1 {
+            background-position: 0 -10080px;
+            width: 1280px;
+            height: 720px;
+        }
+        
+        @media screen and (-webkit-min-device-pixel-ratio: 1.0), screen and (min--moz-device-pixel-ratio: 1.0), screen and (-o-min-device-pixel-ratio: 100/100), screen and (min-device-pixel-ratio: 1.0), screen and (min-resolution: 1.0dppx) {
+            .sprite-pic-pic-99,
+    .sprite-pic-pic-98,
+    .sprite-pic-pic-97,
+    .sprite-pic-pic-96,
+    .sprite-pic-pic-95,
+    .sprite-pic-pic-94,
+    .sprite-pic-pic-93,
+    .sprite-pic-pic-92,
+    .sprite-pic-pic-91,
+    .sprite-pic-pic-90,
+    .sprite-pic-pic-9,
+    .sprite-pic-pic-89,
+    .sprite-pic-pic-88,
+    .sprite-pic-pic-87,
+    .sprite-pic-pic-86,
+    .sprite-pic-pic-85,
+    .sprite-pic-pic-84,
+    .sprite-pic-pic-83,
+    .sprite-pic-pic-82,
+    .sprite-pic-pic-81,
+    .sprite-pic-pic-80,
+    .sprite-pic-pic-8,
+    .sprite-pic-pic-79,
+    .sprite-pic-pic-78,
+    .sprite-pic-pic-77,
+    .sprite-pic-pic-76,
+    .sprite-pic-pic-75,
+    .sprite-pic-pic-74,
+    .sprite-pic-pic-73,
+    .sprite-pic-pic-72,
+    .sprite-pic-pic-71,
+    .sprite-pic-pic-70,
+    .sprite-pic-pic-7,
+    .sprite-pic-pic-69,
+    .sprite-pic-pic-68,
+    .sprite-pic-pic-67,
+    .sprite-pic-pic-66,
+    .sprite-pic-pic-65,
+    .sprite-pic-pic-64,
+    .sprite-pic-pic-63,
+    .sprite-pic-pic-62,
+    .sprite-pic-pic-61,
+    .sprite-pic-pic-60,
+    .sprite-pic-pic-6,
+    .sprite-pic-pic-59,
+    .sprite-pic-pic-58,
+    .sprite-pic-pic-57,
+    .sprite-pic-pic-56,
+    .sprite-pic-pic-55,
+    .sprite-pic-pic-54,
+    .sprite-pic-pic-53,
+    .sprite-pic-pic-52,
+    .sprite-pic-pic-51,
+    .sprite-pic-pic-50,
+    .sprite-pic-pic-5,
+    .sprite-pic-pic-49,
+    .sprite-pic-pic-48,
+    .sprite-pic-pic-47,
+    .sprite-pic-pic-46,
+    .sprite-pic-pic-45,
+    .sprite-pic-pic-44,
+    .sprite-pic-pic-43,
+    .sprite-pic-pic-42,
+    .sprite-pic-pic-41,
+    .sprite-pic-pic-40,
+    .sprite-pic-pic-4,
+    .sprite-pic-pic-39,
+    .sprite-pic-pic-38,
+    .sprite-pic-pic-37,
+    .sprite-pic-pic-36,
+    .sprite-pic-pic-35,
+    .sprite-pic-pic-34,
+    .sprite-pic-pic-33,
+    .sprite-pic-pic-32,
+    .sprite-pic-pic-31,
+    .sprite-pic-pic-30,
+    .sprite-pic-pic-3,
+    .sprite-pic-pic-29,
+    .sprite-pic-pic-28,
+    .sprite-pic-pic-27,
+    .sprite-pic-pic-26,
+    .sprite-pic-pic-25,
+    .sprite-pic-pic-24,
+    .sprite-pic-pic-23,
+    .sprite-pic-pic-22,
+    .sprite-pic-pic-21,
+    .sprite-pic-pic-20,
+    .sprite-pic-pic-2,
+    .sprite-pic-pic-19,
+    .sprite-pic-pic-18,
+    .sprite-pic-pic-17,
+    .sprite-pic-pic-16,
+    .sprite-pic-pic-15,
+    .sprite-pic-pic-14,
+    .sprite-pic-pic-13,
+    .sprite-pic-pic-127,
+    .sprite-pic-pic-126,
+    .sprite-pic-pic-125,
+    .sprite-pic-pic-124,
+    .sprite-pic-pic-123,
+    .sprite-pic-pic-122,
+    .sprite-pic-pic-121,
+    .sprite-pic-pic-120,
+    .sprite-pic-pic-12,
+    .sprite-pic-pic-119,
+    .sprite-pic-pic-118,
+    .sprite-pic-pic-117,
+    .sprite-pic-pic-116,
+    .sprite-pic-pic-115,
+    .sprite-pic-pic-114,
+    .sprite-pic-pic-113,
+    .sprite-pic-pic-112,
+    .sprite-pic-pic-111,
+    .sprite-pic-pic-110,
+    .sprite-pic-pic-11,
+    .sprite-pic-pic-109,
+    .sprite-pic-pic-108,
+    .sprite-pic-pic-107,
+    .sprite-pic-pic-106,
+    .sprite-pic-pic-105,
+    .sprite-pic-pic-104,
+    .sprite-pic-pic-103,
+    .sprite-pic-pic-102,
+    .sprite-pic-pic-101,
+    .sprite-pic-pic-100,
+    .sprite-pic-pic-10,
+    .sprite-pic-pic-1 {
+                background-image: url('pic.png');
+                -webkit-background-size: 11520px 10800px;
+                -moz-background-size: 11520px 10800px;
+                background-size: 11520px 10800px;
+            }
+        }
+        

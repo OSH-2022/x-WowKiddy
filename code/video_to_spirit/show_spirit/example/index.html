@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <meta content="width=device-width,maximum-scale=1.0,minimum-scale=1.0,initial-scale=1.0,user-scalable=no"
+        name="viewport">
+  <link rel="stylesheet" href="./reset.css">
+  <style type="text/css">
+    .avatar-wrapper {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      padding: 2.5rem;
+    }
+
+
+    html {
+      background: #fff;
+      color: #000
+    }
+
+    body, button, input, select, textarea {
+      font: 12px Helvetica Neue, Helvetica, Arial, Microsoft Yahei, Hiragino Sans GB, Heiti SC, WenQuanYi Micro Hei, sans-serif
+    }
+
+    .pic {
+      position: relative;
+      width: 203px;
+      height: 370px;
+      display: block;
+      overflow: hidden;
+      text-align: center;
+      border-radius: 4px;
+    }
+
+    .pic img {
+      margin: 0 auto;
+      outline: 0;
+    }
+
+    .pic .medal {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 40px;
+      height: 24px;
+      pointer-events: none;
+    }
+
+    .cpm {
+      opacity: 0;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      transition: opacity .3s;
+    }
+
+    .progress-bar {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 10px;
+      border-color: #000;
+      border-style: solid;
+      border-width: 4px 8px;
+      background: #444;
+      box-sizing: border-box;
+    }
+
+    .cpm .progress-bar span {
+      display: block;
+      background: #fff;
+      height: 2px;
+    }
+
+    .mask-video {
+      opacity: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, .2);
+      transition: opacity .3s;
+    }
+
+    .show {
+      opacity: 1;
+    }
+
+    .cpm .cover {
+      position: absolute;
+      left: 0;
+      top: 7px;
+      height: 360px;
+      width: 100%;
+      margin-top: 2px;
+    }
+
+  </style>
+</head>
+<body>
+<div class="avatar-wrapper">
+  <div class="pic">
+    <div class="lazy-img">
+      <img
+          src="./M1.jpg">
+    </div>
+    <i class="icon medal "></i>
+    <div class="cpm show">
+      <div class="cover"></div>
+      <div class="progress-bar"><span style="width: 10%;"></span></div>
+    </div>
+    <div class="mask-video"></div>
+  </div>
+</div>
+
+<script src="./jquery.js"></script>
+<script>
+
+  var data = {
+    "len_x": 20,
+    "width": 203,
+    "height": 360,
+  };
+
+  $(".pic").mousemove(function (event) {
+    console.log('e', event.offsetX);
+
+    var t = event.offsetX;
+    this.width = 203;
+    this.height = 360;
+
+    var a = 83
+      , e = data.height / data.width * this.width;
+    this.progress = Math.floor(t / this.width * 100),
+      this.size = this.width * data.len_x;
+    var i = Math.floor(t / this.width * a);
+    this.x = -i % data.len_x * this.width,
+      this.y = -Math.floor(i / data.len_x) * e;
+
+    var self = this;
+
+    $('.cover').css({
+      backgroundImage: "url(./M1.jpg)",
+      backgroundPosition: self.x + "px " + self.y + "px",
+      backgroundSize: self.size + "px"
+    })
+
+    $('.progress-bar span').css({
+      width: self.progress + "%"
+    })
+
+
+  });
+
+</script>
+
+</body>
+</html>
