@@ -1,0 +1,6 @@
+pdfplumber
+sphinx
+ffmpeg
+SpeechRecognition
+tinytag
+pydub

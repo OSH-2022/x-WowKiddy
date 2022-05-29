@@ -1,0 +1,5 @@
+RUN pip install -r requirements.txt
+RUN python3 -m nltk.downloader stopwords
+RUN python3 -m nltk.downloader universal_tagset
+RUN python3 -m spacy download en
+RUN pip install git+https://github.com.cnpmjs.org/boudinfl/pke.git
