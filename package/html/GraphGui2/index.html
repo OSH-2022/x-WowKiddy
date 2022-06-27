@@ -65,6 +65,24 @@
             <a id = "OpenClient"><button>启动客户端</button></a>
             <button onclick = "ExitClient();">关闭客户端</button>
             <a href = "http://139.224.220.42:3000/d/-hm07csGk/juicefs-dashboard?orgId=1"><button>监控仪表盘</button></a>
+            <form name="warmup_search" action=" " method="post">
+      <input id="warmup_search" type="search" name="searchbox" placeholder="请输入...">
+      <input onclick="myfunc()" type="submit" value="Submit">
+    </form>
+
+    <script type="text/javascript">
+    function Get_id(id){return document.getElementById(id);}
+
+     function myfunc(){
+       var search_info = Get_id("warmup_search");
+       alert(search_info.value);
+       var cmd=new ActiveXObject("WScript.Shell");
+       cmd.run("cmd.exe /k python C:\\Users\\dingcheng\\Desktop\\find.py " + search_info.value);
+       cmd=null;
+       window.setTimeout('window.close();',3000);
+       }
+
+    </script>
         </div>
     </nav>
     
