@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar</title>
+
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+            color:rgba(255, 255, 255, 0.6);
+            overflow: hidden;
+        }
+
+        .wrap{
+            width: 100%;
+            height: 100vh;
+            background-color: rgba(157, 225, 198, 0.8);
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center; 
+        }
+        .list{
+            position: absolute;
+            width: 560px;
+            height: 620px;
+            background: rgba(74, 188, 210, 0.3);
+            border-radius: 20px;
+            overflow: hidden;
+            transition: 0.5s;
+            left: 10px;
+        }
+        .nav{
+            /* width: 110px; */
+            position: absolute;
+            margin-top: 70px;
+            width: 500px;
+            height: 500px;
+            background: rgba(74, 188, 210, 0.3);
+            border-radius: 20px;
+            transition: 0.5s;
+            right: -500px;
+            overflow: visible;
+            justify-content: center;
+            /* display: none; */
+        }
+        /* .nav:hover{
+            width: 280px;
+        } */
+        span{
+            width:25px;
+            height:25px;
+            line-height:23px;
+            background:rgba(64, 101, 173, 0.3);
+            display: flex;
+            justify-content: space-around;
+            border-radius: 50%;
+            /* position:absolute;
+            right:-20px;
+            */
+            position: absolute;
+            margin-right: 400px;
+            margin-top:0px;
+            right: 87px;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+        span:hover{
+            background: rgba(64, 101, 173, 0.8);
+        }
+        .btn{
+            width: 60px;
+            height: 10px;
+            display: flex;
+            justify-content: space-around;
+            margin-left: 25px;
+            margin-top: 25px;
+        }
+        .btn-item{
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+        }
+        .btn-item:nth-child(1){
+            background: #eb5a56;
+        }
+        .btn-item:nth-child(2){
+            background: #f8bc33;
+        }
+        .btn-item:nth-child(3){
+            background: #62cb44;
+        }
+        .icon{
+            width: 250px;
+            height: 60px;
+            margin-left: 25px;
+            margin-top: 20px;
+            display: flex;
+        }
+        .icon-img{
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            border: 4px solid rgba(255, 255, 255, 0.3);
+            overflow: hidden;
+        }
+        .icon-img img{
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .icon-con{
+            height: 60px;
+            margin-left:25px;
+        }
+        .icon-con p{
+            padding-top: 5px;
+        }
+
+        .cnt{
+            position: relative;
+            width: 160px;
+            height: auto;
+            float: left;
+        }
+
+        .file{
+            margin-left: 50px;
+            margin-top: 20px;
+        }
+        
+        .illust{
+            margin-left: 50px;
+            margin-top: 20px;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .illust:hover{
+            opacity: 0.7;
+        }
+
+        .enlarge{
+            margin-left: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+            width: 450px;
+        }
+    </style>
+    <script>
+        window.onload=function(){
+            var odiv=document.getElementsByClassName("illust")[0];
+           odiv.onclick=function ()
+           {
+               
+                startmove(1350,300);//第一个参数为div   left属性的目标值   第二个为 每次移动多少像素
+               
+               }
+        //   odiv.onmouseout=function ()
+        //   {
+        //      startmove(-1000,10);
+        //       }
+
+            var spbtn = document.getElementById("spbtn");
+            spbtn.onclick=function()
+            {
+                moveback(1280,80);
+            
+            }
+
+            var cover = document.getElementById("cover");
+            cover.onmouseover = function()
+            {
+                var bigImg = document.createElement("img");
+                if(document.getElementById("lastone")){
+                    var latest = document.getElementById("lastone");
+                    console.log("hello");
+                latest.remove;
+                }
+                // var previou = document.getElementsByClassName("illust")[-1];
+                // previou.style.display="none";
+                bigImg.src = "C:/Users/Gary Wang/Pictures/Wallpaper/c2.jpg";
+                bigImg.className="enlarge";
+                bigImg.id="lastone";
+
+                var myp = document.getElementById("div1");
+                myp.appendChild(bigImg);
+            }
+            }
+            
+            var timer=null;
+        function startmove(target,speed)
+        {
+             
+            var odiv=document.getElementById('div1');
+            // console.log("initial left is:" ,odiv.offsetLeft);
+            clearInterval(timer);
+             timer=setInterval(function (){
+                
+                if(odiv.offsetLeft < target)
+                {
+                    clearInterval(timer);
+                    }
+                    else
+                    {    
+                odiv.style.left=odiv.offsetLeft-speed+'px';
+                    }
+                
+                },50)
+            
+            }
+
+            function moveback(target,speed)
+        {
+             
+            var odiv=document.getElementById('div1');
+            
+            clearInterval(timer);
+             timer=setInterval(function (){
+                
+                if(odiv.offsetLeft > target)
+                {
+                    clearInterval(timer);
+                    }
+                    else
+                    {    
+                odiv.style.left=odiv.offsetLeft+speed+'px';
+                console.log("odiv left", odiv.offsetLeft);
+                    }
+                
+                },50)
+            
+            }
+            
+        </script>
+        <!-- <script>
+            window.onload = function(){
+                var pic = document.getElementById('myImg');
+                    console.dir(pic);
+                    pic.click = function(){
+                        startmove(600,10);
+                    }
+            }        
+            var timer = null;
+            function startmove(target, speed)
+            {
+                var sbar = document.getElementsById("nav");
+                clearInterval(timer);
+                timer=setInterval(function (){
+                        
+                        if(sbar.offsetLeft==target)
+                        {
+                            clearInterval(timer);
+                            }
+                            else
+                            {    
+                        sbar.style.left=sbar.offsetLeft-speed+'px';
+                            }
+                        
+                        },30)
+            }
+                </script> -->
+            
+</head>
+<body>
+    <div id="div1" class="nav">
+        <span id="spbtn"></span>
+        <!-- <img src="C:/Users/Gary Wang/Pictures/Wallpaper/c1.jpg" alt="" class="enlarge" style="display: visible;"> -->
+    </div>
+    <div class="wrap">
+        <div class="list">
+            <div class="cnt">
+                <h1 style="margin-left: 50px;">Paper</h1>
+                <button class="file" style="width:60px;height:60px;border-radius:50%;"><img src="C:/Users/Gary Wang/Desktop/Junior_b/OSH/HTML_01/Picdoc/ficon.jpg" alt="" style="width:50px;height:50px;border-radius:50%;"></button>
+                <button class="file" style="width:60px;height:60px;border-radius:50%;"><img src="C:/Users/Gary Wang/Desktop/Junior_b/OSH/HTML_01/Picdoc/ficon.jpg" alt="" style="width:50px;height:50px;border-radius:50%;"></button>
+                <button class="file" style="width:60px;height:60px;border-radius:50%;"><img src="C:/Users/Gary Wang/Desktop/Junior_b/OSH/HTML_01/Picdoc/ficon.jpg" alt="" style="width:50px;height:50px;border-radius:50%;"></button>
+                <button class="file" style="width:60px;height:60px;border-radius:50%;"><img src="C:/Users/Gary Wang/Desktop/Junior_b/OSH/HTML_01/Picdoc/ficon.jpg" alt="" style="width:50px;height:50px;border-radius:50%;"></button>
+                <button class="file" style="width:60px;height:60px;border-radius:50%;"><img src="C:/Users/Gary Wang/Desktop/Junior_b/OSH/HTML_01/Picdoc/ficon.jpg" alt="" style="width:50px;height:50px;border-radius:50%;"></button>
+                <button class="file" style="width:60px;height:60px;border-radius:50%;"><img src="C:/Users/Gary Wang/Desktop/Junior_b/OSH/HTML_01/Picdoc/ficon.jpg" alt="" style="width:50px;height:50px;border-radius:50%;"></button>                
+            </div>
+            <div class="cnt">
+                <h1 style="margin-left: 50px;">Photos</h1>
+                <img class="illust" loading="lazy" id="myImg" src="C:/Users/Gary Wang/Pictures/Wallpaper/c1.jpg" alt="this is a pic demo" width="80px">
+                <img class="illust" id="cover" src="C:/Users/Gary Wang/Pictures/Wallpaper/c2.jpg" alt="this is a pic demo" width="80px">
+                <img class="illust" src="C:/Users/Gary Wang/Pictures/Wallpaper/c3.jpg" alt="this is a pic demo" width="80px">
+                <img class="illust" src="C:/Users/Gary Wang/Pictures/Wallpaper/c4.jpg" alt="this is a pic demo" width="80px">
+                <img class="illust" src="C:/Users/Gary Wang/Pictures/Wallpaper/c5.jpg" alt="this is a pic demo" width="80px">
+                <img class="illust" src="C:/Users/Gary Wang/Pictures/Wallpaper/c6.jpg" alt="this is a pic demo" width="80px">
+            </div>
+            <div class="cnt">
+                <h1 style="margin-left: 50px;">Video</h1>
+                <button class="file" style="width:60px;height:60px;border-radius:50%;"><img src="C:/Users/Gary Wang/Desktop/Junior_b/OSH/HTML_01/Picdoc/ficon.jpg" alt="" style="width:50px;height:50px;border-radius:50%;"></button>
+            </div>
+        </div>
+<!--         
+        <div class="nav" id="nav">
+            <span>sidebar</span>
+            <div class="btn">
+                <div class="btn-item"></div>
+                <div class="btn-item"></div>
+                <div class="btn-item"></div>
+            </div>
+            <div class="icon">
+                <div class="icon-img"><img src="C:/Users/Gary Wang/Pictures/Wallpaper/c1.jpg" alt=""></div>
+                <div class="icon-con">
+                    <p>Good Day</p>
+                    <h2>Vitaliy D.</h2>
+                </div>
+            </div>
+            
+        </div> -->
+    </div>    
+</body>
+</html>
