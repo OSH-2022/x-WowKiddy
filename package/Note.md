@@ -1,7 +1,0 @@
-# Note
-
-该目录下共有四个文件夹TagServer、MainServer、neo4j以及Client
-
-请将TagServer放到打标服务器上，MainServer和neo4j放到索引服务器上，Client放到需要使用的客户端
-
-具体部署文档在各个文件夹下面。
