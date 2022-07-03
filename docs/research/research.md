@@ -77,7 +77,7 @@ JuiceFS 是一款面向云环境设计的高性能共享文件系统，在 AGPL 
 ### 数据一致性问题
 
 #### 什么是数据一致性问题
-对于这个话题，我们根据仓库中的已有报告来看看什么是数据一致性：![什么是强一致性问题？](docs/什么是强一致性问题？.md)
+对于这个话题，我们根据仓库中的已有报告来看看什么是数据一致性：![什么是强一致性问题？](./什么是强一致性问题？.md)
 
 
 #### CRDT理论
@@ -92,8 +92,12 @@ CRDT理论主要包括以下几个方面：
 ​	分区容忍性(Partition Tolerance)： 在大规模分布式数据系统中， 网络分区现象， 即分区间的机器无法进行网络通信的情况是必然会发生的， 所以系统应该能够在这种情况下仍然继续工作。
 
 ​	CAP 最初是由Eric Brewer于1999 年首先提出的， 他同时证明了：**对于一个大规模分布式数据系统来说， CAP 三要素不可兼得**， 同一个系统至多只能实现其中的两个， 而必须放宽第3 个要素来保证其他两个要素被满足。
-关于CRDT的详细介绍见![CRDT调研报告](docs/CRDT调研报告.md)
+关于CRDT的详细介绍见![CRDT调研报告](./CRDT调研报告.md)
+
+
+
 #### Paxos算法
+
 ​	Paxos算法是Lamport提出的一种基于消息传递的分布式一致性算法，使其获得2013年图灵奖。Paxos由Lamport于1998年在《The Part-Time Parliament》论文中首次公开，最初的描述使用希腊的一个小岛Paxos作为比喻，描述了Paxos小岛中通过决议的流程，并以此命名这个算法，但是这个描述理解起来比较有挑战性。后来在2001年，Lamport觉得同行不能理解他的幽默感，于是重新发表了朴实的算法描述版本《Paxos Made Simple》。自Paxos问世以来就持续垄断了分布式一致性算法，Paxos这个名词几乎等同于分布式一致性。Google的很多大型分布式系统都采用了Paxos算法来解决分布式一致性问题，如Chubby、Megastore以及Spanner等。开源的ZooKeeper，以及MySQL 5.7推出的用来取代传统的主从复制的MySQL Group Replication等纷纷采用Paxos算法解决分布式一致性问题。
 ​	算法具体描述参见Lamport的论文《Paxos Made Simple》。其中一个比较完善的实现是腾讯的一个工程：[phxpaxos](https://github.com/Tencent/phxpaxos)
 PhxPaxos是腾讯公司微信后台团队自主研发的一套基于Paxos协议的多机状态拷贝类库。它以库函数的方式嵌入到开发者的代码当中， 使得一些单机状态服务可以扩展到多机器，从而获得强一致性的多副本以及自动容灾的特性。 这个类库在微信服务里面经过一系列的工程验证，并且腾讯方面对它进行过大量的恶劣环境下的测试，使其在一致性的保证上更为健壮。关于该部分的详细介绍见仓库内报告：[分布式文件系统的数据一致性](docs/分布式文件系统的数据一致性.md)。
@@ -221,7 +225,6 @@ Lua是一种轻量语言，它的官方版本只包括一个精简的核心和�
 
 Lua是一个[动态类型](https://zh.wikipedia.org/wiki/%E5%8A%A8%E6%80%81%E7%B1%BB%E5%9E%8B "动态类型")语言，支持增量式[垃圾收集](https://zh.wikipedia.org/wiki/%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6_(%E8%A8%88%E7%AE%97%E6%A9%9F%E7%A7%91%E5%AD%B8) "垃圾回收 (计算机科学)")策略。有内建的，与操作系统无关的[协作式多线程](https://zh.wikipedia.org/wiki/%E5%8D%8F%E7%A8%8B "协程")支持。Lua原生支持的数据类型很少，只提供了数值（默认是[双精度浮点数](https://zh.wikipedia.org/wiki/%E6%B5%AE%E9%BB%9E%E6%95%B8 "浮点数")，可配置）、布尔量、[字符串](https://zh.wikipedia.org/wiki/%E5%AD%97%E7%AC%A6%E4%B8%B2 "字符串")、表格、[函数](https://zh.wikipedia.org/wiki/%E5%AD%90%E7%A8%8B%E5%BA%8F "子程序")、[线程](https://zh.wikipedia.org/wiki/%E7%BA%BF%E7%A8%8B "线程")以及用户自定义数据这几种。但是其处理表和字符串的效率非常之高，加上元表的支持，开发者可以高效的模拟出需要的复杂数据类型（比如集合、数组等）。
 
-
 ## 参考文献
 
 [日志文件系统wiki](https://zh.wikipedia.org/zh-cn/%E6%97%A5%E5%BF%97%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F)
@@ -231,4 +234,4 @@ Lua是一个[动态类型](https://zh.wikipedia.org/wiki/%E5%8A%A8%E6%80%81%E7%B
 [phxpaxos](https://github.com/Tencent/phxpaxos)
 [Lua](https://en.wikipedia.org/wiki/Lua_(programming_language))
 
-注：不同md应用渲染效果有所不同，完整报告内容见仓库pdf。![](src/调研笔记关系图谱.png)
+注：不同md应用渲染效果有所不同，完整报告内容见仓库pdf。![](../../src/调研笔记关系图谱.png)
