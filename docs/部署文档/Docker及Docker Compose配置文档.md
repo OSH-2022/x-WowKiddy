@@ -40,11 +40,11 @@ docker run -it ubuntu:20.04 /bin/bash
 
 预期出现如下界面：
 
-![docker_1](../src/docker_1.png)
+![docker_1](../../src/docker_1.png)
 
 使用exit命令可以退出容器终端：
 
-![docker_2](../src/docker_2.png)
+![docker_2](../../src/docker_2.png)
 
 
 
@@ -105,7 +105,7 @@ docker-compose --version
 
 预期出现如下界面：
 
-![docker_3](../src/docker_3.png)
+![docker_3](../../src/docker_3.png)
 
 代表安装成功
 
@@ -245,7 +245,7 @@ docker-compose up -d
 
 执行之后命令行出现如下提示：
 
-![docker_4](../src/docker_4.png)
+![docker_4](../../src/docker_4.png)
 
 注：第一次运行时所需时间较长，因为需要安装各种依赖，后续运行所需时间正常。
 

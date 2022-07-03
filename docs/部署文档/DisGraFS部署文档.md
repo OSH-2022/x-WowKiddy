@@ -186,13 +186,13 @@ python3 -m nltk.downloader universal_tagset
 
 这两个安装语句在安装时可能会遇到问题，报错信息如下：
 
-![tagging_1](../src/tagging_1.png)
+![tagging_1](../../src/tagging_1.png)
 
 解决方法如下：
 
 打开将图中所示下载路径/root/nltk_data
 
-![tagging_2](../src/tagging_2.png)
+![tagging_2](../../src/tagging_2.png)
 
 将图中所示两个文件夹中所有的内容复制到以下路径：
 
@@ -273,17 +273,17 @@ cd bin
 
 启动neo4j，预期看到如下消息：
 
-![neo4j_1](../src/neo4j_1.png)
+![neo4j_1](../../src/neo4j_1.png)
 
 代表neo4j启动成功。
 
 此时用浏览器启动图上所示地址：
 
-![neo4j_2](../src/neo4j_2.png)
+![neo4j_2](../../src/neo4j_2.png)
 
 其中数据库名称不用填写，在username中填入neo4j，在password中填入需要设定的密码。点击connect后进入如下界面：
 
-![neo4j_3](../src/neo4j_3.png)
+![neo4j_3](../../src/neo4j_3.png)
 
 代表部署成功。
 
@@ -303,7 +303,7 @@ cd bin
 
 #### 4.1.1 pytoneo.py
 
-![neo4j_4](../src/code_1.png)
+![neo4j_4](../../src/code_1.png)
 
 如上所示的代码中，需要将url中的ip换为服务器对应ip，如为本机部署则可以使用localhost
 
@@ -311,7 +311,7 @@ cd bin
 
 #### 4.1.2 serverWeb.py
 
-![code_2](../src/code_2.png)
+![code_2](../../src/code_2.png)
 
 将此处的url以及password作如上更改。
 
@@ -321,13 +321,13 @@ cd bin
 
 #### 4.2.1 根目录下index.html
 
-![code_3](../src/code_3.png)
+![code_3](../../src/code_3.png)
 
 如图所示的ip换为服务器地址。
 
 #### 4.2.2 GraphGui2目录下index.html
 
-![code_4](../src/code_4.png)
+![code_4](../../src/code_4.png)
 
 如图所示的地方，ip换为服务器地址。
 
@@ -335,13 +335,13 @@ btoa处第二个neo4j换为上面在neo4j界面设定的密码。
 
 #### 4.2.3 GraphGui2目录下action.js
 
-![code_5](../src/code_5.png)
+![code_5](../../src/code_5.png)
 
 如上所示处，disgrafs://后面换为访问云数据库使用的url，ws://后面的额地址换为服务器对应ip。
 
 #### 4.2.4 GraphGui2目录下login.js
 
-![code_6](../src/code_6.png)
+![code_6](../../src/code_6.png)
 
 如上所示处ip换为服务器对应ip
 
@@ -411,7 +411,7 @@ sudo ufw disable
 
 进入neo4j的安装路径，这里以本项目服务器为例：
 
-![启动_1](../src/启动_1.png)
+![启动_1](../../src/启动_1.png)
 
 出现如上所示信息代表启动成功。
 
@@ -421,7 +421,7 @@ sudo ufw disable
 
 启动serverWeb.py
 
-![启动_2](../src/启动_2.png)
+![启动_2](../../src/启动_2.png)
 
 出现如上信息代表启动成功
 
@@ -443,7 +443,7 @@ sudo ufw disable
 juicefs mount redis://irisesd:DCchengding2003@disgrafs.redis.rds.aliyuncs.com:6379/1 /root/osh/mnt
 ```
 
-![启动_3](../src/启动_3.png)
+![启动_3](../../src/启动_3.png)
 
 出现如图所示信息代表挂载成功。
 
@@ -457,7 +457,7 @@ juicefs mount redis://irisesd:DCchengding2003@disgrafs.redis.rds.aliyuncs.com:63
 ray start --head --port=6379
 ```
 
-![启动_4](../src/启动_4.png)
+![启动_4](../../src/启动_4.png)
 
 出现如上信息代表头节点启动成功，然后在位于同一局域网中的其他服务器（本台服务器也可）上使用命令：
 
@@ -477,11 +477,11 @@ python3 tag_server.py
 
 在打标服务器端出现如下信息：
 
-![启动_5](../src/启动_5.png)
+![启动_5](../../src/启动_5.png)
 
 并且索引服务器端出现如下信息时：
 
-![启动_6](../src/启动_6.png)
+![启动_6](../../src/启动_6.png)
 
 打标服务器连接成功。
 
@@ -501,11 +501,11 @@ python3 tag_server.py
 
 1）打开浏览器，输入http://47.101.152.229/index.html 看到如下界面：
 
-![启动_7](../src/启动_7.png)
+![启动_7](../../src/启动_7.png)
 
 并且索引服务器端出现如下信息：
 
-![启动_8](../src/启动_8.png)
+![启动_8](../../src/启动_8.png)
 
 代表连接成功。
 
@@ -515,33 +515,33 @@ python3 tag_server.py
 
 输入之后点击BEGIN，进入如下界面：
 
-![启动_9](../src/启动_9.png)
+![启动_9](../../src/启动_9.png)
 
 注意，这里仅仅是对文件系统进行展示，如果需要在网页端对文件进行打开和删除操作，需要点击启动客户端。
 
 点击启动客户端之后如果出现如下信息：
 
-![启动_10](../src/启动_10.png)
+![启动_10](../../src/启动_10.png)
 
 其原因为本机的ip地址未被加入云数据库的白名单中，请联系本人（
 
 加入白名单后显示如下信息：
 
-![启动_11](../src/启动_11.png)
+![启动_11](../../src/启动_11.png)
 
 代表启动成功。这之后，请保持cmd开启，即可在网页端进行文件打开、文件删除、查看关系等操作。
 
 一些效果预览如下：
 
-![启动_12](../src/启动_12.png)
+![启动_12](../../src/启动_12.png)
 
 点击文件旁边的tag可以查看相关tag
 
-![启动_13](../src/启动_13.png)
+![启动_13](../../src/启动_13.png)
 
 点击打开文件可以正常打开
 
-![启动_14](../src/启动_14.png)
+![启动_14](../../src/启动_14.png)
 
 搜索功能正常
 
