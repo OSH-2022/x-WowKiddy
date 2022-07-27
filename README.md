@@ -1,5 +1,7 @@
 # x-WowKiddy
 
+[![OSCS Status](https://www.oscs1024.com/platform/badge/OSH-2022/x-WowKiddy.svg?size=small)](https://www.oscs1024.com/project/OSH-2022/x-WowKiddy?ref=badge_small)
+
 <img src="src/bg.png" alt="bg" style="zoom:25%;" />
 
 2022 USTC OSH Project
