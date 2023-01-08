@@ -66,15 +66,15 @@ introduce some tools used in the system
 
 * [Prometheus](https://github.com/prometheus/prometheus) and [Grafana](https://github.com/grafana/grafana) : **Prometheus**, a [Cloud Native Computing Foundation](https://cncf.io/) project, is a systems and service monitoring system. It collects metrics from configured targets at given intervals, evaluates rule expressions, displays the results, and can trigger alerts when specified conditions are observed.
 
-​		**Grafana** is the open-source platform for monitoring and observability, it allows you to query, visualize, 		alert on and understand your metrics no matter where they are stored. 
+  **Grafana** is the open-source platform for monitoring and observability, it allows you to query, visualize, 		alert on and understand your metrics no matter where they are stored. 
 
-​		In this system, we use Prometheus and Grafana to build a monitor of the file system.
+  In this system, we use Prometheus and Grafana to build a monitor of the file system.
 
 
 
 * [Docker Compose](https://github.com/docker/compose) : **Docker Compose** is a tool for running multi-container applications on Docker defined using the [Compose file format](https://compose-spec.io/). 
 
-​		In this system, we use Docker Compose to deploy the system in the server. Its sandbox environment 		avoids the problems caused by the server's primitive environment.
+  In this system, we use Docker Compose to deploy the system in the server. Its sandbox environment 		avoids the problems caused by the server's primitive environment.
 
 
 
