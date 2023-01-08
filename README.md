@@ -18,7 +18,7 @@ This is the course project of the Operating Systems (H), USTC, made by group x-W
 
 ## Project Summary
 
-This project aim to create a distributed dataset platform for shared images and videos. We constructed the  system based on an open-source distributed file system JuiceFS. We extract the information from images and videos, storage them into a graph database, which allows users to view connection of files, as well as previewing images and videos online. Besides, some open-source tools like Prometheus and Grafana are used to monitor the system. Docker Compose is used to deploy the system.
+This project aims to create a distributed dataset platform for shared images and videos. We constructed the  system based on an open-source distributed file system JuiceFS. We extract the information from images and videos, storage them into a graph database, which allows users to view connection of files, as well as previewing images and videos online. Besides, some open-source tools like Prometheus and Grafana are used to monitor the system. Docker Compose is used to deploy the system.
 
 
 
