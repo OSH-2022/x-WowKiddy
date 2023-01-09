@@ -76,7 +76,10 @@ introduce some tools used in the system
 
   In this system, we use Docker Compose to deploy the system in the server. Its sandbox environment 		avoids the problems caused by the server's primitive environment.
 
-
+## Preview
+![preview1](src/preview1.png)
+![preview2](src/preview2.png)
+![preview3](src/preview3.png)
 
 ## Note
 
