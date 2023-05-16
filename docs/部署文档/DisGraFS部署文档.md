@@ -32,9 +32,9 @@ sudo install juicefs /usr/local/bin
 
 ### 1.2 juicefs分布式模式的部署
 
-首先，juicefs部署需要使用云数据库，这里部署使用阿里云服务器，购买了阿里云256M云数据库Redis版服务。数据库用户名为irisesd，密码为DCchengding2003. 数据库公网访问地址为disgrafs.redis.rds.aliyuncs.com。
+首先，juicefs部署需要使用云数据库，这里部署使用阿里云服务器，购买了阿里云256M云数据库Redis版服务。数据库用户名为irisesd，密码为xxx. 数据库公网访问地址为disgrafs.redis.rds.aliyuncs.com。
 
-在juicefs中，用于访问数据库的地址为redis://irisesd:DCchengding2003@disgrafs.redis.rds.aliyuncs.com:6379/1.
+在juicefs中，用于访问数据库的地址为redis://irisesd:xxx@disgrafs.redis.rds.aliyuncs.com:6379/1.
 
 #### 1.2.1 创建文件系统
 
@@ -55,7 +55,7 @@ juicefs format \
 #### 1.2.2 挂载文件系统
 
 ```
-juicefs mount redis://irisesd:DCchengding2003@disgrafs.redis.rds.aliyuncs.com:6379/1 ~/Desktop/jfs 
+juicefs mount redis://irisesd:xxx@disgrafs.redis.rds.aliyuncs.com:6379/1 ~/Desktop/jfs 
 ```
 
 使用上述命令可以将创建好的文件系统挂载到本地的指定目录下。其中，~/Desktop/jfs为需要挂载的目录，可以根据需要自行更换。
@@ -75,7 +75,7 @@ juicefs mount redis://irisesd:DCchengding2003@disgrafs.redis.rds.aliyuncs.com:63
 解决方法：在上述挂载命令中加入--cache-dir /mycache，即使用命令：
 
 ```
-juicefs mount redis://irisesd:DCchengding2003@disgrafs.redis.rds.aliyuncs.com:6379/1 ~/Desktop/jfs --cache-dir /mycache
+juicefs mount redis://irisesd:xxx@disgrafs.redis.rds.aliyuncs.com:6379/1 ~/Desktop/jfs --cache-dir /mycache
 ```
 
 即可解决该问题。
